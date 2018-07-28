@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>NFA To DFA Converter</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/theme.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+
+
+<body>
+	<section class="container">
+		<div class="row">
+			<div class="col-md-12 col-lg-12">
+				<div class="card mt-5 p-5">
+					<h5 class="card-title text-center">Non-Deterministic Finite Automata (NFA)</h5>
+					<!-- <div class="d-flex">
+						<button type="button" class="btn btn-secondary inittooltip" data-placement="top" title="Initial State Is A Final State" id="btn-initial"><img src="images/initial.png"</button>
+						<button type="button" class="btn btn-secondary ml-1 inittooltip" data-placement="top" title="Add New State" id="btn-state"><img src="images/state-white.png"></button>
+						<button type="button" class="btn btn-secondary ml-1 inittooltip" data-placement="top" title="Add Final State" id="btn-final"><img src="images/final-white.png"></button>
+						<button type="button" class="btn btn-secondary ml-1 inittooltip" data-toggle="modal" data-target="#alphabetsModal" data-placement="top" title="Add Alphabets" id="btn-alphabet"><img src="images/input-white.png"></button>
+						<button type="button" class="btn btn-secondary ml-1 inittooltip" data-toggle="modal" data-target="#transitionModal" data-placement="top" title="Add Transition" disabled id="btn-transition"><img src="images/arrow-white.png"></button>
+
+						<button type="button" class="btn btn-danger ml-1 inittooltip" data-placement="top" title="Reset Editor" id="btn-reset"><img src="images/reset-white.png"></button>
+
+						<button type="button" class="btn btn-primary px-4 ml-1" id="btn-convert">Convert To DFA</button>
+					</div> -->
+					<div class="d-flex ">
+						<input type="text" class="form-control" id="txt-input" value="[['z0','z1'],['0','1'],[[['z0'],'0',['z0','z1']],[['z0'],'1',['z1']],[['z1'],'0',[]],[['z1'],'1',['z0','z1']]],'z0',['z1']]">
+						<button type="button" class="btn btn-danger ml-1 inittooltip" data-placement="top" title="Reset Editor" id="btn-reset"><img src="images/reset-white.png"></button>
+						<button type="button" class="btn btn-primary px-4 ml-1" id="btn-convert">Convert To DFA</button>
+					</div>
+					<div class="card-body" id="NFAContainer">
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-12">
+				<div class="card mt-5 p-5">
+					<h5 class="card-title text-center">NFA Transitions Table</h5>
+					<div class="card-body" id="NFATableContainer">
+
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-12">
+				<div class="card mt-5 p-5">
+					<h5 class="card-title text-center">DFA Transitions Table</h5>
+					<div class="card-body" id="DFATableContainer">
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-md-12">
+				<div class="card my-5 p-5">
+					<h5 class="card-title text-center">Deterministic Finite Automata (DFA)</h5>
+					<div class="card-body" id="DFAContainer">
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/viz.js"></script>
+	<script src="js/full.js.opaque"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>

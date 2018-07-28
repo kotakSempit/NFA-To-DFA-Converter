@@ -1,0 +1,22 @@
+body {
+  /*background:url('../images/grid.gif');*/
+  background-color: #fbfbfb;
+}
+
+#graphContainer {
+  cursor:default;
+  overflow:auto;
+  height: inherit;
+}
+
+.nfa-section button {
+  padding: 5px;
+}
+
+button img {
+  height: 30px;
+}
+
+table {
+   text-align:center;
+ }
