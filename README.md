@@ -1,5 +1,5 @@
 # NFA To DFA Converter
-Transform Non-Deterministic Finite Automata (NFA) to Deterministic Finite Automata (DFA) via the Subset Construction Algorithm. http://toc.thegridlab.com/
+Transform Non-Deterministic Finite Automata (NFA) to Deterministic Finite Automata (DFA) via the Subset Construction Algorithm. https://kotaksempit.github.io/NFA-To-DFA-Converter/
 
 This is an assignment for TIC2151-Theory Of Computations subject. Multimedia University. 
 
